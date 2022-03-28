@@ -24,34 +24,30 @@ Exemplos de Entrada	  Exemplos de Saída
 150.00         |          A=70685.7750
 
 -----------------------------------------------
-beecrowd | 1004
-Produto Simples
+beecrowd | 1003
+Soma Simples
 Adaptado por Neilor Tonin, URI  Brasil
 
 Timelimit: 1
-Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente.   
+Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. A seguir escrever o valor desta variável.
 
 Entrada
 O arquivo de entrada contém 2 valores inteiros.
 
 Saída
-Imprima a mensagem "PROD" e a variável PROD conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
+Imprima a mensagem "SOMA" com todas as letras maiúsculas, com um espaço em branco antes e depois da igualdade seguido pelo valor correspondente à soma de A e B. Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
 Exemplos de Entrada	Exemplos de Saída
-3      |   PROD = 27
-9      |    
-
-PROD = 27
-
--30
+30       |  SOMA = 40
 10
-
-PROD = -300
-
+-----------
+-30      |SOMA = -20
+10
+-----------
+0        |SOMA = 0
 0
-9
 
-PROD = 0
+
 -----------------------------------------------
 
 beecrowd | 1004
@@ -68,18 +64,14 @@ Saída
 Imprima a mensagem "PROD" e a variável PROD conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 
 Exemplos de Entrada	Exemplos de Saída
-3
+3              |PROD = 27
 9
-
-PROD = 27
-
--30
+----------
+-30            |PROD = -300
 10
-
-PROD = -300
-
-0
+----------
+0              |PROD = 0
 9
 
-PROD = 0
+
 ------------------------------------------
